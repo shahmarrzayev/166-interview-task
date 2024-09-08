@@ -12,3 +12,5 @@ build/
 
 # Ignore .DS_Store files (for macOS)
 .DS_Store
+# Local Netlify folder
+.netlify

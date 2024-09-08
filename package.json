@@ -38,7 +38,8 @@
     "main": "src/app.js",
     "scripts": {
         "dev": "nodemon functions/app.js",
-        "start": "node functions/app.js"
+        "start": "node functions/app.js",
+        "build": "netlify deploy --prod"
     },
     "author": "",
     "license": "ISC",
