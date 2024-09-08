@@ -25,6 +25,7 @@ setupAndCheckEnvironment();
 configureLogger();
 
 const app = express();
+app.get('/.netlify/functions/api', (req, res) => res.send('Hello World!'));
 
 configureCors(app);
 setupRoutes(app);

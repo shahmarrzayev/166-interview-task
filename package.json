@@ -37,8 +37,8 @@
     "version": "1.0.0",
     "main": "src/app.js",
     "scripts": {
-        "dev": "nodemon src/app.js",
-        "start": "node src/app.js"
+        "dev": "nodemon functions/app.js",
+        "start": "node functions/app.js"
     },
     "author": "",
     "license": "ISC",
